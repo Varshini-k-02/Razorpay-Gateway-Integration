@@ -3,7 +3,9 @@
       font-size:17.5px;
      
   }
-
+html{
+    scroll-behavior: smooth;
+}
   
   #navitem{
       padding-left:55%;
@@ -27,23 +29,31 @@
   }
   .txt1{
       font-size: 38px;
-      position: absolute;
-      top:25%;
+      position: relative;
+      bottom:400px;
+      left:290px;
       color: azure;
-      padding-left: 150px;
+      padding-left: 350px;
       padding-right: 290px;
       line-height: 1.5;
+      height:400px;
+      width:1200px;
 
+  }
+  .gif{
+      position: relative;
+      left:60px;
+      top:60px;
   }
   span{
       color:#ffbd59;
       font-size: 38px;
   }
   .frontimg{
-      width: 998.5px;
-      height: 500px;
+      width: 1498.5px;
+      height: 700px;
       background-image: url("front.jpg");
-      background-color: rgb(0, 0, 0,0.5);
+      background-color: rgb(0, 0, 0,0.68);
       background-blend-mode: multiply;
   }
   
@@ -52,7 +62,7 @@
       
       margin-left:16px;
       font-weight: 700;
-      background-image: url("Edu.jpeg");
+      background-image: url("bndw.jpeg");
       -webkit-text-fill-color: transparent;
       -webkit-background-clip:text;
       background-clip: text;
@@ -65,9 +75,9 @@
       font-size:40px;
       font-weight: 600;
       margin-left:550px;
-      padding-top:20px;
+      padding-top:120px;
       position:absolute;
-      bottom:-28%;
+      bottom:-55%;
   }
   .about{
       height:475px;
@@ -113,8 +123,8 @@
      height:50px;
      background-color: #ffbd59;
      position: relative;
-     top:83.5%;
-     left:15%;
+     bottom:500px;
+     left:680px;
      font-size: 22px;
      font-weight: 700;
      text-decoration: none;   
