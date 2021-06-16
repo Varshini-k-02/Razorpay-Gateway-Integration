@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+  *{
+      font-size:17.5px;
+     
+  }
+html{
+    scroll-behavior: smooth;
+}
+  
+  #navitem{
+      padding-left:55%;
+  }
+  #items{
+      padding-right:20%;
+  }
+  .textpart{
+      width:1498px;
+      height:589px;
+      background-image:url("https://images.unsplash.com/photo-1602856580608-15599264e9f5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+      background-repeat: no-repeat;
+  }
+  .front{
+      display: flex;
+      flex-direction: row;
+  }
+  .content1{
+      display: flex;
+      flex-direction: row;
+  }
+  .txt1{
+      font-size: 38px;
+      position: relative;
+      bottom:400px;
+      left:290px;
+      color: azure;
+      padding-left: 350px;
+      padding-right: 290px;
+      line-height: 1.5;
+      height:400px;
+      width:1200px;
+
+  }
+  .gif{
+      position: relative;
+      left:60px;
+      top:60px;
+  }
+  span{
+      color:#ffbd59;
+      font-size: 38px;
+  }
+  .frontimg{
+      width: 1498.5px;
+      height: 700px; 
+      background-image: url('{% static "front.jpg" %}');
+      background-color: rgb(0, 0, 0,0.68);
+      background-blend-mode: multiply;
+  }
+  
+  .edu{
+      font-size:250px;
+      
+      margin-left:16px;
+      font-weight: 700;
+      background-image: url("../img/bndw.jpeg");
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip:text;
+      background-clip: text;
+      letter-spacing: 5px;   
+      margin-top:0px;
+      position: relative;     
+      bottom:50%;
+  }
+  .edudown{
+      font-size:40px;
+      font-weight: 600;
+      margin-left:550px;
+      padding-top:120px;
+      position:absolute;
+      bottom:-55%;
+  }
+  .about{
+      height:475px;
+      background-color: #ffbd59;
+  }
+  .abouthead{
+      margin-top: 90px;
+      padding-top:25px;
+      padding-left:650px;
+      
+  }
+  .abtcontent{
+      padding-left:150px;
+      padding-right:140px;
+      font-size:28px;
+      font-weight: 500;   
+  }
+  .services{
+      height:440px;
+  }
+  .servhead{
+      padding-left:650px;
+      padding-top:26px;
+  }
+ .servimg{
+     padding-left: 40px;
+     padding-top: 40px;
+ }
+ .servflex{
+     display: flex;
+     flex-direction: row;
+ }
+ .sercontent{
+     font-size:28px;
+     font-weight: 500;
+     padding-top: 40px;
+     padding-left: 40px;
+     padding-right:140px;
+ }
+ 
+ .donatebtn{
+     width:150px;
+     height:50px;
+     background-color: #ffbd59;
+     position: relative;
+     bottom:500px;
+     left:680px;
+     font-size: 22px;
+     font-weight: 700;
+     text-decoration: none;   
+     z-index: 9;
+     border:none;
+     transition: all  all ease-in-out 0.2s;
+  }
+  .donatebtn::before{
+      content:'';
+      position:absolute;
+      top:100%;
+      left:0%;
+      width:100%;
+      height:0;
+      background-color: white;
+      opacity:.9;
+      z-index: -1;
+      transition: all ease-in-out 0.2s;
+  }
+  .donatebtn:hover{
+      color:black;
+  }
+  .donatebtn:hover:before{
+      top:0;
+      height:100%;
+  }
+  .contactus{
+    height:399px;
+    
+    background-color:#ffbd59 ;
+    border-radius: 100px 100px 0px 0px;
+    
+}
+  .contacthed{
+      padding-left:630px;
+      padding-top:25px;
+  }
+.contactcontentl{
+    height:210px;
+}
+.left{
+    font-size:27px;
+    font-weight: 500;
+    padding-left: 80px;
+    padding-top: 10px;
+    position: relative;
+    bottom:15px;
+   
+}
+.mail{
+    padding-left:90px;
+    position: relative;
+    bottom:20px;
+    width:132px;
+    height:52px;
+}
+#mail{
+    font-size:27px;
+    font-weight: 500;
+    padding-left:160px;
+    position: relative;
+    bottom:70px;
+}
+.phone{
+    padding-left:70px;
+    position: relative;
+    bottom:55px;
+    width:152px;
+    height:52px;
+}
+#phone{
+    font-size:23px;
+    font-weight: 500;
+    position: relative;
+    bottom:95px;
+    padding-left: 155px;
+}
+.colorstrip{
+    width: 630px; 
+    height: 35px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    position: relative;
+    bottom:49px;
+}
+.line1{
+    border-left: 2px solid black;
+    height: 200px;
+    position: relative;
+    bottom:300px;
+    left:740px;
+    width:2px;
+  }
+#fb{
+    margin-top:1px;
+    margin-left:255px;
+    width:52px;
+    height:52px;
+    position: relative;
+    bottom:48px;
+}
+#insta{
+    width:52px;
+    height:52px;
+    position: relative;
+    bottom:149px;
+    left:380px;
+}
+#twi{
+    position: relative;
+    left:245px;
+    bottom:20px;
+}
+#link{
+    width:52px;
+    height:52px;
+    position: relative;
+    bottom:120px;
+    left:380px
+}
+.last{
+    width:700px;
+    height:100px;
+    font-size:27px;
+    font-weight: 500;
+    padding-left:250px;
+}
+.p{
+    width:500px;
+    height:100px;
+    position: relative;
+    bottom:100px;
+    right:140px;
+}
